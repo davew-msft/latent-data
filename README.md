@@ -52,7 +52,34 @@ Lab 002:  Spin Up Necessary Azure Services
 
 * [Lab 003: Index the PDFs and other files](./Lab003.md)
 * [Lab 004: Build a simple search front-end](./Lab004.md)
-* [Lab 005: Build Custom Skills](./Lab005.md)
+* [Lab 005: Create a Basic Custom Skill](./Lab005.md)
+  * here we build a basic azfunc
+* [Lab 006: manipulating AzSearch programmatically](./Lab006.md)
+  * now we use the azfunc to populate new fields in an index
+* [Lab 007: adding a custom analyzer](./Lab007.md)
+  * we will add a phonetic search for the new field
+* [Lab 008: Ranking and Scoring Profiles](./Lab008.md)
+  * how can you influence the ranking and score algorithms for your custom purpose
+
+### Advanced Labs (optional)
+
+These labs cover custom skills and other "data science" topics.  
+
+* [Lab 010: Identify custom entities](./Lab010/Lab010.md)
+  * we use a custom AI skill to extract your "special" entities from your documents, instead of the "canned" entities that are provided out-of-the-box
+  * named entity recognition (NER) using BERT and AMLS
+  * deploy custom skills
+
+### Analytics Labs
+
+* [Lab 020: analyzing knowledge store data](./Lab020.md)
+
+### Other Optional Labs
+
+* [Lab 050: indexing "Structured" Data](./Lab050.md)
+  * we will index data from a SQL Server, but conceptually this is no different for any relational database.  
+* [Lab 060: Search Telemetry](./Lab060.md)
+
 
 
 
@@ -67,8 +94,12 @@ Lab 002:  Spin Up Necessary Azure Services
   * NER
   * annotate text with something like the CIA Cryptonym skill:  https://www.maryferrell.org/php/cryptdb.php
 
+## Alternative datasets
+
+[Some sample pdf, docx, html, png, and jpeg files](https://github.com/Azure-Samples/azure-search-knowledge-mining/tree/master/sample_documents) that you can use if you don't have some data to use.  
+
 ## References and Other Documentation
 
 [References](./references.md)
 
-
+https://github.com/Azure-Samples/azure-search-knowledge-mining
